@@ -1,0 +1,4 @@
+def fahrenheit_to_celsius(temps_f):
+    magic_number = 32
+    temps_c = (temps_f - magic_number) * (5 / 9)
+    return round(temps_c, 3)
